@@ -1,0 +1,15 @@
+{
+    "prefix": "reproduce",
+    "dataset": "ifamilymalware",
+    "m_rate_list":[0.8, 0.8, 0.6, 0.6, 0.6, 0.6],
+    "c_rate_list":[0.0, 0.0, 0.1, 0.1, 0.1, 0.0],
+    "memory_size": 280,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 5,
+    "model_name": "rmm-icarl",
+    "convnet_type": "resnet18",
+    "device": ["0"],
+    "seed": [1993]
+}
+

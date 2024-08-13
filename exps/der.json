@@ -1,0 +1,14 @@
+{
+    "prefix": "reproduce",
+    "dataset": "ifamilymalware",
+    "memory_size": 1750,
+    "memory_per_class": 50,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 25,
+    "increment": 2,
+    "model_name": "der",
+    "convnet_type": "resnet50",
+    "device": ["0"],
+    "seed": [1993]
+}

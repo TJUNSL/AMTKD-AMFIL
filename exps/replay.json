@@ -1,0 +1,14 @@
+{
+    "prefix": "reproduce",
+    "dataset": "iamd",
+    "memory_size": 2000,
+    "memory_per_class": 57,
+    "fixed_memory": false,
+    "shuffle": false,
+    "init_cls": 25,
+    "increment": 1,
+    "model_name": "replay",
+    "convnet_type": "resnet34",
+    "device": ["0"],
+    "seed": [1993]
+}
