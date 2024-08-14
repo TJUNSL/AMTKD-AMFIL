@@ -13,6 +13,10 @@ With the increasing number of Android malware, effectively classifying and ident
 3.  Run： `python main.py --config=./exps/[MODEL NAME].json`
    To run our method  `python main.py --config=./exps/mtkdcilf.json`
 
+### Get VirusTotal Report
+
+Detail in [/report](./report/)
+
 ### Datasets
 
 There are four Android malware datasets, two of which are widely used Android malware family datasets (**Drebin, AMD**) the other two are based on **VirusShare** datasets (**VirusShareImg** **VirusShareYearsImg**).
