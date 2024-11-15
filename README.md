@@ -13,8 +13,7 @@ The increasing prevalence of Android malware makes effective classification and 
 
 1. Edit the [MODEL NAME].json file for global settings.
 2. Edit the hyperparameters in the corresponding  [MODEL NAME].py file (e.g., models/kindroid.py).
-3. Run： python main.py --config=./exps/[MODEL NAME].json
-   To run our method  python main.py --config=./exps/kindroid.json
+3. Run： python main.py --config=./exps/[MODEL NAME].json   To run our method  python main.py --config=./exps/kindroid.json.
 
 
 ### Datasets
