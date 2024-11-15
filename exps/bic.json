@@ -1,0 +1,14 @@
+{
+    "prefix": "reproduce",
+    "dataset": "ivirusshare",
+    "memory_size":4000,
+    "memory_per_class": 33,
+    "fixed_memory": false,
+    "shuffle": false,
+    "init_cls": 60,
+    "increment": 6,
+    "model_name": "bic",
+    "convnet_type": "resnet34",
+    "device": ["0"],
+    "seed": [1993]
+}

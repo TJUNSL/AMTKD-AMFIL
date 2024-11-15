@@ -1,0 +1,15 @@
+{
+    "prefix": "reproduce",
+    "dataset": "ivirusshareyear",
+    "memory_size":2000,
+    "memory_per_class": 40,
+    "fixed_memory": false,
+    "shuffle": false,
+    "init_cls": 40,
+    "increment": 1,
+    "model_name": "icarl",
+    "convnet_type": "resnet34",
+    "device": ["0"],
+    "seed": [1993]
+}
+
